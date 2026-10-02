@@ -1,0 +1,12 @@
+Create a clear educational line chart comparing the growth of
+Merge Sort and Quick Sort for input sizes n = 10, 100, and 1000.
+
+Label the x-axis as Input Size (n) and the y-axis as Running
+Time / Operations.
+
+Use different lines for Merge Sort and Quick Sort and include
+a clear legend.
+
+Show the growth rates clearly and make the visualization
+suitable for a Design and Analysis of Algorithms academic
+project.

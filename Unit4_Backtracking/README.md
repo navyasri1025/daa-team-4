@@ -110,3 +110,6 @@ Unit4_BackTracking/
 ├── Prompt.txt
 ├── Output.pdf
 └── README.md
+
+
+<img width="942" height="622" alt="Screenshot 2026-10-04 160408" src="https://github.com/user-attachments/assets/743f4057-eea1-44a3-925f-f7fa7abec474" />

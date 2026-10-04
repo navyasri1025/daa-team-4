@@ -1,0 +1,50 @@
+Project 10 – N-Queens State Space Tree Visualization
+
+Prompt Used:
+
+Create a professional academic state-space tree visualization for
+the N-Queens problem using the backtracking algorithm with N = 4.
+
+Show the root node as an empty 4x4 chessboard.
+
+Show the recursive exploration row by row. Each level of the tree
+should represent the placement of a queen in the next row, and each
+branch should represent a possible column choice.
+
+Use the following colors:
+
+Green = Valid queen placement
+Red = Invalid placement / conflicting position / pruned branch
+Purple or Blue = Backtracking
+Yellow = Complete valid solution
+
+Clearly show when a branch is rejected because two queens are in
+the same column or diagonal.
+
+Clearly show the backtracking process when the algorithm returns
+to a previous decision and tries another column.
+
+Highlight the two valid solutions for N = 4:
+
+[2, 4, 1, 3]
+
+[3, 1, 4, 2]
+
+Label the nodes with queen positions such as:
+
+[1]
+[1,3]
+[2,4,1]
+[2,4,1,3]
+
+Include arrows showing the direction of recursive exploration.
+
+Include a legend explaining the colors.
+
+The diagram should be clean, readable, technically accurate, and
+suitable for a college Design and Analysis of Algorithms (DAA)
+macro project.
+
+Title the diagram:
+
+"N-Queens State Space Tree using Backtracking (N = 4)"

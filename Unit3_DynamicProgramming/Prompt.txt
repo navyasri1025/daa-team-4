@@ -1,0 +1,4 @@
+Draw a DP table for 0/1 Knapsack with 4 items and capacity 10.
+
+Show the maximum value achievable for each item and capacity combination.
+The table should clearly show the item inclusion/exclusion decisions.

@@ -1,0 +1,55 @@
+ALGORITHM: GREEDY JOB SEQUENCING WITH DEADLINES
+
+Input:
+A set of jobs, where each job has:
+- Job ID
+- Deadline
+- Profit
+
+Output:
+A sequence of jobs with maximum total profit.
+
+Steps:
+
+1. Start.
+
+2. Read all jobs with their deadlines and profits.
+
+3. Sort all jobs in decreasing order of profit.
+
+4. Find the maximum deadline among all jobs.
+
+5. Create empty time slots from 1 to the maximum deadline.
+
+6. For each job in decreasing order of profit:
+   a. Start checking from the job's deadline.
+   b. Check each slot moving backwards.
+   c. If an empty slot is found, schedule the job in that slot.
+   d. Add the job's profit to the total profit.
+   e. If no empty slot is available, skip the job.
+
+7. Display the selected jobs in their scheduled order.
+
+8. Display the maximum total profit.
+
+9. Stop.
+
+
+Example:
+
+Jobs:
+J1: Deadline = 2, Profit = 100
+J2: Deadline = 1, Profit = 50
+J3: Deadline = 2, Profit = 80
+J4: Deadline = 1, Profit = 40
+J5: Deadline = 3, Profit = 60
+
+Jobs sorted by profit:
+J1, J3, J5, J2, J4
+
+Final schedule:
+Slot 1 → J3
+Slot 2 → J1
+Slot 3 → J5
+
+Maximum Profit = 80 + 100 + 60 = 240

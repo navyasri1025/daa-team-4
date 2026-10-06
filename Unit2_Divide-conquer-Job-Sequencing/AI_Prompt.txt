@@ -1,0 +1,45 @@
+AI PROMPT – GREEDY JOB SEQUENCING FLOWCHART
+
+Create a clean and professional academic flowchart for the
+Greedy Job Sequencing with Deadlines algorithm.
+
+Use the following example:
+
+J1: Deadline = 2, Profit = 100
+J2: Deadline = 1, Profit = 50
+J3: Deadline = 2, Profit = 80
+J4: Deadline = 1, Profit = 40
+J5: Deadline = 3, Profit = 60
+
+The flowchart should show the following steps:
+
+Start
+↓
+Input jobs with deadlines and profits
+↓
+Sort jobs in decreasing order of profit
+↓
+Find maximum deadline
+↓
+Create empty time slots
+↓
+Select a job
+↓
+Check for an available slot before or at its deadline
+↓
+If slot is available, schedule the job
+↓
+If no slot is available, skip the job
+↓
+Check whether all jobs are processed
+↓
+Calculate total profit
+↓
+Display selected jobs and maximum profit
+↓
+End
+
+Use rectangles for processing steps, diamonds for decisions,
+and arrows to show the flow. Make the diagram easy to read,
+well organized, and suitable for a B.Tech Data Structures and
+Algorithms macro project.
